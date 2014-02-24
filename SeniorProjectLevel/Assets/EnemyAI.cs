@@ -5,7 +5,7 @@ public class EnemyAI : MonoBehaviour {
 	public int movementSpeed;
 	public int rotationSpeed;
 	int maxDistance;
-	int AggroDistance;
+	public int AggroDistance;
 	
 	public Transform target;
 	private Transform myTransform;
